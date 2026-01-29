@@ -108,12 +108,6 @@ with gr.Blocks() as demo:
         outputs=output
     )
     
-    gr.Markdown(
-        """
-        ---
-        **Note:** This model uses Gradient Boosting trained on churn modelling data to provide predictions.
-        """
-    )
 
 if __name__ == "__main__":
     demo.launch(theme=gr.themes.Soft(primary_hue="blue", spacing_size="md", radius_size="lg"), css=custom_css)

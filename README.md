@@ -65,4 +65,3 @@ After running, visit `http://127.0.0.1:7860` in your browser.
 - `requirements.txt`: List of required Python packages.
 
 ---
-*Created By Anik Chakraborty*
